@@ -12,38 +12,99 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <style>
-      body {background-color:#163a63; color:#163a63; padding-top:15px;}
-
-.list-group {box-shadow: 0px 11px 23px 5px rgba(0,0,0,0.34);}
-
-.list-group-item {background-color: rgba(255,255,255,0.7); border:0;}
-
-.btn-toolbar {margin-top:10px;}
-
+      body {
+  background-color: #163a63;
+  color: #163a63;
+  padding-top: 15px;
+}
+.list-group {
+  box-shadow: 0px 11px 23px 5px rgba(0, 0, 0, 0.34);
+}
+.list-group-item {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 0;
+}
+.btn-toolbar {
+  margin-top: 10px;
+}
 img {
-  float:left; 
-  margin-right:15px;
+  float: left;
+  margin-right: 15px;
   height: 128px;
   width: 128px;
 }
 /* ==== SOME BOOTSTRAP MODS/STYLING ==== */
-.btn-default {background-color: rgba(255,255,255,0.3); border-color:rgba(0,0,0,0.2);}
-.img-rounded, .btn, .label {border-radius: 6px;}
-.btn {padding: 6px 18px;}
-.dropdown-menu>li>a {color:#777;}
-.dropdown-menu {
-  background-color:rgba(0,0,0,0.8);
-  .divider {background-color: #555;}
+.btn-default {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: rgba(0, 0, 0, 0.2);
 }
-body { /* GRADIENT BG */ background: -moz-linear-gradient(45deg, rgba(0,145,0,1) 0%, rgba(0,86,199,1) 100%); /* ff3.6+ */ background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(0,145,0,1)), color-stop(100%, rgba(0,86,199,1))); /* safari4+,chrome */ background: -webkit-linear-gradient(45deg, rgba(0,145,0,1) 0%, rgba(0,86,199,1) 100%); /* safari5.1+,chrome10+ */ background: -o-linear-gradient(45deg, rgba(0,145,0,1) 0%, rgba(0,86,199,1) 100%); /* opera 11.10+ */ background: -ms-linear-gradient(45deg, rgba(0,145,0,1) 0%, rgba(0,86,199,1) 100%); /* ie10+ */ background: linear-gradient(45deg, rgba(0,145,0,1) 0%, rgba(0,86,199,1) 100%); /* w3c */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0056C7', endColorstr='#009100',GradientType=1 ); /* ie6-9 */}
-
+.img-rounded,
+.btn,
+.label {
+  border-radius: 6px;
+}
+.btn {
+  padding: 6px 18px;
+}
+.dropdown-menu > li > a {
+  color: #777;
+}
+.dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.dropdown-menu .divider {
+  background-color: #555;
+}
+body {
+  /* GRADIENT BG */
+  /* ff3.6+ */
+  /* safari4+,chrome */
+  /* safari5.1+,chrome10+ */
+  /* opera 11.10+ */
+  /* ie10+ */
+  background: linear-gradient(45deg, #009100 0%, #0056c7 100%);
+  /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0056C7', endColorstr='#009100', GradientType=1);
+  /* ie6-9 */
+}
 /* ==== FONTS ==== */
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
-h1,h2,h3,h4,h5,h6 {font-family: 'Montserrat', sans-serif; text-transform:uppercase; font-weight:700;}
-html, body {font-family: 'Open Sans', sans-serif; -webkit-font-smoothing: antialiased !important;}
-.active a {color:#c7ddef;}
-
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aX8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aX8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: normal;
+  src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4gaVc.ttf) format('truetype');
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased !important;
+}
+.active a {
+  color: #c7ddef;
+}
       .list-group-item {
         margin-bottom: 10px;
       }
