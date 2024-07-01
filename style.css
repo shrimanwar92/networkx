@@ -103,3 +103,8 @@ body {
   justify-content: space-between;
   float: right;
 }
+
+.nx-navbar-content {
+  padding-right: 66px;
+  padding-left: 66px;
+}
