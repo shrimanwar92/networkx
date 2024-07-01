@@ -121,3 +121,7 @@ body {
   height: 45px;
   width: 45px; 
 }
+
+.nx-list-item-link {
+  text-decoration: none;
+}
