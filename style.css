@@ -96,23 +96,6 @@ body {
   font-weight: 700;
 }
 
-.nx-navbar-links {
-  padding: 15px;
-  display: flex;
-  width: 20%;
-  justify-content: space-between;
-  float: right;
-}
-
-.nx-navbar-content {
-  padding-right: 66px;
-  padding-left: 66px;
-}
-
-.nx-image {
-  height: 82px !important;
-}
-
 .nx-item {
   margin-bottom: 3px;
 }
@@ -123,9 +106,4 @@ body {
 
 .nx-item a:hover {
   text-decoration: none;
-}
-
-.nx-logo {
-  height: 45px;
-  width: 45px; 
 }
