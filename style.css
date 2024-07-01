@@ -108,3 +108,11 @@ body {
   padding-right: 66px;
   padding-left: 66px;
 }
+
+.nx-image {
+  height: 82px !important;
+}
+
+.nx-item {
+  margin-bottom: 3px;
+}
