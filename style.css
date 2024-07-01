@@ -117,6 +117,10 @@ body {
   margin-bottom: 3px;
 }
 
+.nx-item a:hover {
+  text-decoration: none;
+}
+
 .nx-logo {
   height: 45px;
   width: 45px; 
