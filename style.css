@@ -117,6 +117,10 @@ body {
   margin-bottom: 3px;
 }
 
+.nx-item a {
+  text-decoration: none;
+}
+
 .nx-item a:hover {
   text-decoration: none;
 }
@@ -124,8 +128,4 @@ body {
 .nx-logo {
   height: 45px;
   width: 45px; 
-}
-
-.nx-list-item-link {
-  text-decoration: none;
 }
