@@ -29,15 +29,6 @@ img {
 .btn {
   padding: 6px 18px;
 }
-.dropdown-menu > li > a {
-  color: #777;
-}
-.dropdown-menu {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-.dropdown-menu .divider {
-  background-color: #555;
-}
 body {
   /* GRADIENT BG */
   /* ff3.6+ */
@@ -90,12 +81,44 @@ body {
   color: #c7ddef;
 }
 
-.navbar {
-  font-weight: 700;
+.navbar-brand img {
+  max-heigth:50px;
 }
 
 .navbar-brand {
-  line-height: 30px;
+  font-size:24px;
+  text-transform:uppercase;
+  font-weight: 900;
+  color: #683aa4;
+}
+
+nav > ul > li > a {
+  text-color: #a9a9a9;
+  font-size:22px;
+  margin: auto 10px;
+}
+
+nav > ul > li > a:hover{
+   color: #683aa4;
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom:10px;
+}
+
+section h1 {
+  text-transform:uppercase;
+  font-weight: 900;
+  color: #683aa4;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top:50px;
+}
+
+section p {
+  font-size: 16px;
+  font-weight: 30px;
 }
 
 .nx-item {
