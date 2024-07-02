@@ -15,8 +15,6 @@ body {
 img {
   float: left;
   margin-right: 15px;
-  height: 128px;
-  width: 128px;
 }
 /* ==== SOME BOOTSTRAP MODS/STYLING ==== */
 .btn-default {
@@ -92,8 +90,13 @@ body {
   color: #c7ddef;
 }
 
-.nx-navbar {
+.navbar {
   font-weight: 700;
+  width: 74%;
+}
+
+.navbar-brand {
+  line-height: 30px;
 }
 
 .nx-item {
@@ -106,4 +109,11 @@ body {
 
 .nx-item a:hover {
   text-decoration: none;
+}
+
+.nx-root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
