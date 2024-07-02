@@ -10,7 +10,7 @@ items.forEach(item => {
     html = `
         <li onmouseover="makeActive(this)" onmouseout="removeActive(this)" class="list-group-item nx-item clearfix">
             <a class="nx-list-item-link" target="_blank" href="${item.contentUrl}">
-                <h3 class="list-group-item-heading">${item.title}</h3>
+                <h5 class="list-group-item-heading">${item.title}</h5>
             </a>
         </li>
     `;
