@@ -82,7 +82,7 @@ body {
 }
 
 .navbar-brand img {
-  max-heigth:50px;
+  max-height:50px;
 }
 
 .navbar-brand {
@@ -92,18 +92,7 @@ body {
   color: #683aa4;
 }
 
-nav > ul > li > a {
-  text-color: #a9a9a9;
-  font-size:22px;
-  margin: auto 10px;
-}
-
-nav > ul > li > a:hover{
-   color: #683aa4;
-}
-
 section {
-  padding-top: 100px;
   padding-bottom:10px;
 }
 
