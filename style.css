@@ -15,8 +15,6 @@ body {
 img {
   float: left;
   margin-right: 15px;
-  height: 128px;
-  width: 128px;
 }
 /* ==== SOME BOOTSTRAP MODS/STYLING ==== */
 .btn-default {
@@ -118,9 +116,4 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-
-.nx-logo {
-  height: 30px;
-  width: 30px;
 }
