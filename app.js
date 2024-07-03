@@ -4,6 +4,9 @@ const items = [{
 }, {
     title: "Database sharding and partitioning",
     contentUrl: "./design-patterns/database-sharding"
+}, {
+    title: "What is DNS? How DNS works?",
+    contentUrl: "./design-patterns/dns-lookup"
 }];
 
 items.forEach(item => {
