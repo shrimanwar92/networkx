@@ -7,6 +7,9 @@ const items = [{
 }, {
     title: "What is DNS? How DNS works?",
     contentUrl: "./design-patterns/dns-lookup"
+}, {
+    title: "Container security best practices",
+    contentUrl: "./design-patterns/container-security"
 }];
 
 items.forEach(item => {
