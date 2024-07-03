@@ -8,7 +8,7 @@ const items = [{
 
 items.forEach(item => {
     html = `
-        <li onmouseover="makeActive(this)" onmouseout="removeActive(this)" class="list-group-item nx-item clearfix col-md-6">
+        <li onmouseover="makeActive(this)" onmouseout="removeActive(this)" class="list-group-item nx-item clearfix">
             <a class="nx-list-item-link" target="_blank" href="${item.contentUrl}">
                 <h5 class="list-group-item-heading">${item.title}</h5>
             </a>
